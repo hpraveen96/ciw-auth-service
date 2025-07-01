@@ -1,4 +1,4 @@
-package com.egov.matchservice;
+package com.egov.authservice;
 
 import io.github.resilience4j.circuitbreaker.CircuitBreakerConfig;
 import io.github.resilience4j.retry.RetryConfig;

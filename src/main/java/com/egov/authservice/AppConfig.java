@@ -1,4 +1,4 @@
-package com.egov.matchservice;
+package com.egov.authservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
