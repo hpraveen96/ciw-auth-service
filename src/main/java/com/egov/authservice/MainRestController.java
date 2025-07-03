@@ -43,7 +43,7 @@ public class MainRestController {
             token.setExpiry(600);
             tokenRepository.save(token);
 
-            return ResponseEntity.ok().header("Authorization",Integer.toString(tokenVal)).body("Login Successfully!");
+            return ResponseEntity.ok().header("Authorization",Integer.toString(tokenVal)).body("Login Successfully! "+ tokenVal);
         }
 
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Wrong password!");
